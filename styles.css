@@ -1,0 +1,137 @@
+/* Estilos Generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url('https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2023/11/seguro-tener-activas-opciones-desarrollador-movil-android-3236786.jpg?tf=3840x');
+    background-size: cover;
+    background-position: center;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header .container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 1.1rem;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    width: 80%;
+    margin: 30px auto;
+}
+
+/* Sección Intro */
+.intro {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.intro h2 {
+    font-size: 2.5rem;
+    color: #da0808;
+}
+
+.intro p {
+    font-size: 1.2rem;
+    color: #f0f0f0;
+}
+
+/* Sección Sobre Mí */
+.about {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* Sección Proyectos */
+.projects {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.projects h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.projects ul {
+    list-style: none;
+}
+
+.projects ul li {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.projects h3 {
+    font-size: 1.6rem;
+    color: #4CAF50;
+}
+
+.projects a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.projects a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 50px;
+}

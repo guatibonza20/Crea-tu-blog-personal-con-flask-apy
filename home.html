@@ -1,0 +1,36 @@
+<<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Julián Rodríguez</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Bienvenido a mi Portafolio</h1>
+            <nav>
+                <a href="{{ url_for('home') }}">Inicio</a>
+                <a href="{{ url_for('about') }}">Sobre Mí</a>
+                <a href="{{ url_for('projects') }}">Proyectos</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2>Hola, soy Julián Rodríguez</h2>
+            <p>Ingeniero de Sistemas apasionado por el diseño y desarrollo de aplicaciones web.</p>
+        </section>
+
+        {% block content %}{% endblock %}
+    </main>
+
+    <footer>
+        <p>&copy; Julián Rodríguez. guatibonza20 GitHub los derechos reservados.</p>
+    </footer>
+</body>
+</html>
